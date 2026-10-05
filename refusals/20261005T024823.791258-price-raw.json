@@ -1,0 +1,13 @@
+{
+  "ask": "one general-admission ticket",
+  "step": "check",
+  "field": "price_raw",
+  "asked": 2000000,
+  "found": 4000000,
+  "where": "prepared",
+  "note": "",
+  "signed": false,
+  "intent": "intents\\20261005T024823.747034-one-general-admission-ticket.json",
+  "source": "recorded",
+  "at": "2026-10-05T02:48:23.793257+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "ask": "one espresso",
+  "network": "devnet",
+  "store": "dev3pack-cafe",
+  "product": "Espresso",
+  "signature": "4yc7jA8LAjpZc3FXyMBbaeYqJMRQmr5Dmwmhj5Nos7ZrmTzuhftMa76UR6M3UwMLVLXWMXpaXAhhorMieUoXBZzf",
+  "explorer": "https://explorer.solana.com/tx/4yc7jA8LAjpZc3FXyMBbaeYqJMRQmr5Dmwmhj5Nos7ZrmTzuhftMa76UR6M3UwMLVLXWMXpaXAhhorMieUoXBZzf?cluster=devnet",
+  "slot": 505358840,
+  "price_raw": 1000000,
+  "mint": "Eoqdd43nFQ9HzGq8HjBRVLCV6aTqCFRiwHy1ZVQheYSi",
+  "buyer": "E4S9vud2r3uTXKuMra7MSAe4Admop8eewMYEPLSDK5pg",
+  "buyer_delta_raw": -1000000,
+  "store_delta_raw": 1000000,
+  "total_purchases_before": 0,
+  "total_purchases_after": 1,
+  "intent_pinned_at": "2026-10-05T02:58:15.677249+00:00",
+  "source": "recorded",
+  "reconciled": true,
+  "findings": []
+}

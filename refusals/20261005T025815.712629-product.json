@@ -1,0 +1,13 @@
+{
+  "ask": "one general-admission ticket",
+  "step": "pin",
+  "field": "product",
+  "asked": "one general-admission ticket",
+  "found": "not on the menu",
+  "where": "menu",
+  "note": "",
+  "signed": false,
+  "intent": null,
+  "source": "recorded",
+  "at": "2026-10-05T02:58:15.712629+00:00"
+}
