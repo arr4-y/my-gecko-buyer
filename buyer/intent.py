@@ -123,8 +123,10 @@ def parse_intent(ask: str, menu: Menu, context: Context) -> IntentRecord:
 
     for item in menu.products:
         item_words = set(item.name.lower().split())
+        item_words_singular = {w.rstrip('s') for w in item_words}
+        ask_words_singular = {w.rstrip('s') for w in ask_meaningful}
         item_meaningful = item_words - stopwords
-        if item_meaningful and ask_meaningful and (item_meaningful & ask_meaningful):
+        if item_meaningful & ask_meaningful or (item_words_singular & ask_words_singular - stopwords):
             product = item.name
             menu_price_raw = item.price_raw
             break
